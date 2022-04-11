@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const ItemSchema = new mongoose.Schema({
     name: String,
     price: Number,
-    color: String,
+    league:String,
     path: String,
     team: String
 });
