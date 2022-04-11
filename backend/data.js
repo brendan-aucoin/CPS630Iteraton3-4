@@ -1,4 +1,4 @@
-export default {
+module.exports= {
     items:[
         {
         slug: '1',
