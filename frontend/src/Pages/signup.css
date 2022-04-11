@@ -1,0 +1,45 @@
+.register-container{
+    margin-right: auto;
+    margin-left: auto;
+    width:30%;
+    height:800px;
+    margin-top:2.5%;
+    background: lightgray;
+    
+}
+.register-form-container{
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.register-container label, input{
+    display: block;
+}
+
+.register-container label{
+    font-size:1.33rem;
+}
+.register-container input{
+    margin-bottom:1rem;
+    font-size:14pt;
+    height:30px;
+    width:100%;
+
+}
+
+.register-button{
+    width:100%;
+    background-color:rgb(14, 172, 14);
+    color:white;
+    text-align:center;
+    cursor:pointer;
+}
+.register-button:hover{
+    background-color:green;
+}
+
+.login-text{
+    font-size:0.9rem;
+    text-align:center;
+}

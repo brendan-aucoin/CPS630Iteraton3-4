@@ -47,7 +47,9 @@ body {
 /* Getting rid of the underline on links text-decoration needs to be none */
 .header-links a{
   color: white;
+  margin-left:1rem;
   text-decoration: none;
+  padding:10px;
 }
 
 .header-links a:hover{
